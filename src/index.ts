@@ -22,7 +22,7 @@ server.use(
 server.use(cors({origin: '35.240.156.20'}))
 
 server.use('/api', router)
-// server.use('/', express.static(path.join(__dirname, 'dist')))
+server.use('/', express.static(path.join(__dirname, 'dist')))
 
 // https
 //   .createServer(
