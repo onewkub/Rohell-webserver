@@ -4,6 +4,7 @@ import morgan from 'morgan'
 import cors from 'cors'
 import prisma from './lib/prisma'
 import path from 'path'
+require('dotenv').config()
 // import https from 'https'
 // import fs from 'fs'
 
